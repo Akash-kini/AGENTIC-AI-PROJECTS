@@ -1,0 +1,419 @@
+{
+  "meta": {
+    "generated_at": "2026-11-06T10:05:48",
+    "model": "SIMULATED-EXAMPLE (offline stub, not a live Gemini call)"
+  },
+  "student": {
+    "name": "Aarav Sharma",
+    "degree": "B.Tech in Computer Science and Engineering",
+    "academic_interests": [
+      "Artificial Intelligence",
+      "Machine Learning"
+    ],
+    "technical_skills": [
+      "Python",
+      "NumPy",
+      "SQL"
+    ],
+    "experience_level": "Beginner",
+    "career_goal": "AI Engineer"
+  },
+  "professional_summary": "Computer Science and Engineering student pursuing a B.Tech with a strong interest in Artificial Intelligence and Machine Learning. Has a foundation in Python, NumPy and SQL and is building toward an entry-level AI Engineer role. Currently at a beginner level and focused on learning core machine learning and deep learning fundamentals through structured study and hands-on projects.",
+  "skill_analysis": {
+    "target_role": "AI Engineer",
+    "existing_skills": [
+      {
+        "skill": "Python",
+        "relevance_to_goal": "high",
+        "note": "Primary language for ML and AI development."
+      },
+      {
+        "skill": "NumPy",
+        "relevance_to_goal": "high",
+        "note": "Core library for numerical computing and array operations used in ML."
+      },
+      {
+        "skill": "SQL",
+        "relevance_to_goal": "medium",
+        "note": "Useful for querying and preparing data for models."
+      }
+    ],
+    "missing_skills": [
+      {
+        "skill": "Pandas and Data Wrangling",
+        "importance": "critical",
+        "why_needed": "Real-world datasets must be cleaned and explored before modelling."
+      },
+      {
+        "skill": "Statistics and Probability",
+        "importance": "critical",
+        "why_needed": "Underpins model evaluation and ML theory."
+      },
+      {
+        "skill": "Linear Algebra and Calculus Basics",
+        "importance": "important",
+        "why_needed": "Needed to understand how models learn."
+      },
+      {
+        "skill": "Machine Learning with scikit-learn",
+        "importance": "critical",
+        "why_needed": "Standard toolkit for classical ML models."
+      },
+      {
+        "skill": "Deep Learning with PyTorch",
+        "importance": "critical",
+        "why_needed": "Most AI Engineer roles build and fine-tune neural networks."
+      },
+      {
+        "skill": "Git and GitHub",
+        "importance": "important",
+        "why_needed": "Version control is expected in every engineering team."
+      },
+      {
+        "skill": "Model Deployment (FastAPI, Docker)",
+        "importance": "important",
+        "why_needed": "AI Engineers ship models as services."
+      },
+      {
+        "skill": "Large Language Models and Prompting",
+        "importance": "nice_to_have",
+        "why_needed": "Increasingly common in AI Engineer job descriptions."
+      }
+    ],
+    "readiness_assessment": "The student has useful programming and data foundations but is at the start of the machine learning path. With consistent study over roughly six months, an entry-level AI Engineer profile is realistic."
+  },
+  "learning_recommendations": {
+    "recommended_courses": [
+      {
+        "title": "Machine Learning Specialization",
+        "platform": "DeepLearning.AI on Coursera",
+        "level": "Beginner",
+        "covers_skills": [
+          "Machine Learning with scikit-learn",
+          "Statistics and Probability"
+        ],
+        "why": "A well-known beginner-friendly introduction to core ML concepts."
+      },
+      {
+        "title": "Practical Deep Learning for Coders",
+        "platform": "fast.ai",
+        "level": "Intermediate",
+        "covers_skills": [
+          "Deep Learning with PyTorch"
+        ],
+        "why": "Hands-on, project-first introduction to deep learning."
+      },
+      {
+        "title": "Kaggle Learn: Pandas and Intro to Machine Learning",
+        "platform": "Kaggle",
+        "level": "Beginner",
+        "covers_skills": [
+          "Pandas and Data Wrangling"
+        ],
+        "why": "Short, free, practical lessons with exercises."
+      },
+      {
+        "title": "Mathematics for Machine Learning",
+        "platform": "Imperial College London on Coursera",
+        "level": "Beginner",
+        "covers_skills": [
+          "Linear Algebra and Calculus Basics"
+        ],
+        "why": "Covers the maths behind ML."
+      },
+      {
+        "title": "PyTorch official tutorials",
+        "platform": "pytorch.org",
+        "level": "Intermediate",
+        "covers_skills": [
+          "Deep Learning with PyTorch"
+        ],
+        "why": "Authoritative, up-to-date practical guides."
+      },
+      {
+        "title": "Pro Git",
+        "platform": "git-scm.com (free book)",
+        "level": "Beginner",
+        "covers_skills": [
+          "Git and GitHub"
+        ],
+        "why": "The standard reference for version control."
+      }
+    ],
+    "learning_topics": [
+      {
+        "topic": "Data analysis with Pandas",
+        "why": "Almost every ML project starts with data cleaning.",
+        "subtopics": [
+          "DataFrames",
+          "missing values",
+          "group-by",
+          "visualisation"
+        ]
+      },
+      {
+        "topic": "Statistics and probability",
+        "why": "Needed to evaluate models correctly.",
+        "subtopics": [
+          "distributions",
+          "hypothesis testing",
+          "bias and variance"
+        ]
+      },
+      {
+        "topic": "Classical machine learning",
+        "why": "Foundation before deep learning.",
+        "subtopics": [
+          "regression",
+          "classification",
+          "cross-validation",
+          "metrics"
+        ]
+      },
+      {
+        "topic": "Neural networks and deep learning",
+        "why": "Core of modern AI engineering.",
+        "subtopics": [
+          "backpropagation",
+          "CNNs",
+          "training loops",
+          "regularisation"
+        ]
+      },
+      {
+        "topic": "Model deployment basics",
+        "why": "Models only create value when served.",
+        "subtopics": [
+          "REST APIs",
+          "FastAPI",
+          "containers"
+        ]
+      }
+    ]
+  },
+  "learning_roadmap": [
+    {
+      "phase": 1,
+      "title": "Strengthen data foundations",
+      "duration": "Weeks 1-4",
+      "goals": [
+        "Use Pandas fluently",
+        "Visualise datasets"
+      ],
+      "topics": [
+        "Pandas",
+        "Matplotlib",
+        "SQL joins revisited"
+      ],
+      "milestone_project": "Exploratory data analysis of a public dataset using Python, NumPy, Pandas and SQL"
+    },
+    {
+      "phase": 2,
+      "title": "Maths and statistics for ML",
+      "duration": "Weeks 5-8",
+      "goals": [
+        "Understand vectors, matrices and gradients",
+        "Apply basic statistics"
+      ],
+      "topics": [
+        "Linear algebra",
+        "Probability",
+        "Descriptive statistics"
+      ],
+      "milestone_project": "Implement linear regression from scratch with NumPy"
+    },
+    {
+      "phase": 3,
+      "title": "Classical machine learning",
+      "duration": "Weeks 9-14",
+      "goals": [
+        "Train and evaluate models",
+        "Avoid overfitting"
+      ],
+      "topics": [
+        "scikit-learn",
+        "Model evaluation",
+        "Feature engineering"
+      ],
+      "milestone_project": "End-to-end classification project with a written evaluation"
+    },
+    {
+      "phase": 4,
+      "title": "Deep learning fundamentals",
+      "duration": "Weeks 15-20",
+      "goals": [
+        "Build and train neural networks in PyTorch"
+      ],
+      "topics": [
+        "PyTorch",
+        "CNNs",
+        "Training loops"
+      ],
+      "milestone_project": "Image classifier trained in PyTorch"
+    },
+    {
+      "phase": 5,
+      "title": "Engineering and deployment",
+      "duration": "Weeks 21-26",
+      "goals": [
+        "Version code with Git",
+        "Serve a model through an API"
+      ],
+      "topics": [
+        "Git and GitHub",
+        "FastAPI",
+        "Docker basics"
+      ],
+      "milestone_project": "Deploy the image classifier as a simple web API and publish it on GitHub"
+    }
+  ],
+  "interview_preparation": {
+    "technical_interview_questions": [
+      {
+        "question": "What is the difference between supervised and unsupervised learning?",
+        "difficulty": "Beginner",
+        "topic": "ML basics",
+        "answer": "Supervised learning trains on labelled examples to predict a target, such as classification or regression. Unsupervised learning finds structure in unlabelled data, such as clustering or dimensionality reduction."
+      },
+      {
+        "question": "Why does NumPy make numerical code faster than plain Python lists?",
+        "difficulty": "Beginner",
+        "topic": "NumPy",
+        "answer": "NumPy stores homogeneous data in contiguous memory and runs vectorised operations in compiled C code. This avoids Python-level loops and per-element object overhead."
+      },
+      {
+        "question": "What is overfitting and how can you reduce it?",
+        "difficulty": "Beginner",
+        "topic": "ML basics",
+        "answer": "Overfitting is when a model memorises training data and performs poorly on new data. It can be reduced with more data, simpler models, regularisation, cross-validation and early stopping."
+      },
+      {
+        "question": "Explain the train, validation and test split.",
+        "difficulty": "Beginner",
+        "topic": "Evaluation",
+        "answer": "Training data fits the model, validation data is used to tune hyperparameters, and the test set gives a final unbiased estimate of performance. The test set should only be used once at the end."
+      },
+      {
+        "question": "When would you use precision and recall instead of accuracy?",
+        "difficulty": "Beginner",
+        "topic": "Metrics",
+        "answer": "On imbalanced data accuracy can be misleading. Precision measures how many predicted positives are correct, and recall measures how many real positives are found, so they reveal errors accuracy hides."
+      },
+      {
+        "question": "Write the SQL idea behind finding the top 5 customers by total spend.",
+        "difficulty": "Beginner",
+        "topic": "SQL",
+        "answer": "Group the orders by customer, sum the amount for each group, sort the totals in descending order and limit the result to five rows. A join with the customers table adds their names."
+      },
+      {
+        "question": "What is gradient descent?",
+        "difficulty": "Intermediate",
+        "topic": "Optimisation",
+        "answer": "Gradient descent is an iterative algorithm that updates model parameters in the direction that reduces the loss, using the gradient of the loss. The learning rate controls the step size."
+      },
+      {
+        "question": "What is the bias-variance trade-off?",
+        "difficulty": "Intermediate",
+        "topic": "ML theory",
+        "answer": "Bias is error from overly simple assumptions and variance is error from sensitivity to training data. Increasing model complexity usually lowers bias but raises variance, so you look for a balance that generalises well."
+      },
+      {
+        "question": "How does a convolutional neural network differ from a fully connected network?",
+        "difficulty": "Intermediate",
+        "topic": "Deep learning",
+        "answer": "A CNN shares small learned filters across the image, which captures local patterns with far fewer parameters and some translation invariance. A fully connected network connects every input to every neuron and ignores spatial structure."
+      },
+      {
+        "question": "How would you serve a trained model to other applications?",
+        "difficulty": "Intermediate",
+        "topic": "Deployment",
+        "answer": "Save the trained model, load it in a web service such as FastAPI that exposes a prediction endpoint, validate incoming data, and package it in a container so it runs the same way everywhere."
+      }
+    ]
+  },
+  "resume_content": {
+    "headline": "Aspiring AI Engineer | B.Tech in Computer Science and Engineering",
+    "summary": "Computer Science undergraduate focused on Artificial Intelligence and Machine Learning, with working knowledge of Python, NumPy and SQL. Following a structured plan to build machine learning and deep learning skills through hands-on projects.",
+    "skills_section": {
+      "technical_skills": [
+        "Python",
+        "NumPy",
+        "SQL"
+      ],
+      "currently_learning": [
+        "Pandas and Data Wrangling",
+        "Machine Learning with scikit-learn",
+        "Deep Learning with PyTorch",
+        "Git and GitHub"
+      ]
+    },
+    "education": "B.Tech in Computer Science and Engineering",
+    "experience_note": "No professional experience yet; seeking an entry-level opportunity and building a portfolio through academic and self-directed projects.",
+    "suggested_projects": [
+      {
+        "title": "Exploratory Data Analysis of a Public Dataset",
+        "description": "Clean, query and summarise a public dataset and report the main findings.",
+        "tech_stack": [
+          "Python",
+          "NumPy",
+          "SQL",
+          "Pandas and Data Wrangling"
+        ],
+        "resume_bullets": [
+          "Cleaned and explored a public dataset using Python and NumPy to uncover key trends",
+          "Wrote SQL queries to aggregate and filter records for analysis",
+          "Documented findings in a clear, reproducible notebook"
+        ]
+      },
+      {
+        "title": "Linear Regression from Scratch",
+        "description": "Implement linear regression with gradient descent using only NumPy.",
+        "tech_stack": [
+          "Python",
+          "NumPy"
+        ],
+        "resume_bullets": [
+          "Implemented linear regression and gradient descent from scratch using NumPy",
+          "Compared results against a library implementation to validate correctness"
+        ]
+      },
+      {
+        "title": "Image Classifier with PyTorch",
+        "description": "Train a small convolutional network to classify images and evaluate it.",
+        "tech_stack": [
+          "Python",
+          "Deep Learning with PyTorch",
+          "Git and GitHub"
+        ],
+        "resume_bullets": [
+          "Built and trained a convolutional neural network for image classification in PyTorch",
+          "Evaluated the model with accuracy and a confusion matrix and tracked code on GitHub"
+        ]
+      }
+    ],
+    "project_disclaimer": "These are SUGGESTED portfolio projects. Add them to a resume only after you have actually built them."
+  },
+  "consistency_report": [
+    {
+      "check": "Existing skills match the skills the student entered",
+      "passed": true
+    },
+    {
+      "check": "No skill appears as both existing and missing",
+      "passed": true
+    },
+    {
+      "check": "Resume technical skills only list the student's skills",
+      "passed": true
+    },
+    {
+      "check": "No senior/professional-experience claims for a Beginner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Project tech stacks only use existing or roadmap skills",
+      "passed": true
+    }
+  ]
+}

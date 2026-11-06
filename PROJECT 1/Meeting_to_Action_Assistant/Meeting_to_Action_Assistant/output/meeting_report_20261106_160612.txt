@@ -1,0 +1,85 @@
+==============================================================================
+                           MEETING-TO-ACTION REPORT                           
+==============================================================================
+Source    : samples\sample_meeting.txt
+Generated : 2026-11-06 16:06:12
+Model     : gemini-3.6-flash
+
+------------------------------------------------------------------------------
+SUMMARY
+------------------------------------------------------------------------------
+Dr. Mehta hosted a kickoff meeting for the Student Portal Project with Rahul,
+Priya, and Ankit. Rahul committed to delivering the frontend by Friday and
+sending the API list to Priya tomorrow, while database completion timelines
+remain to be set. The group established technology and hosting choices as well
+as a recurring meeting schedule, though documentation and testing tasks remain
+unassigned.
+
+------------------------------------------------------------------------------
+DECISIONS
+------------------------------------------------------------------------------
+1. Use PostgreSQL for the database.
+2. Host the portal on the college server instead of a cloud provider.
+3. Hold weekly check-in meetings every Monday.
+
+------------------------------------------------------------------------------
+TASKS
+------------------------------------------------------------------------------
+1. Complete the frontend
+     Owner    : Rahul
+     Deadline : Friday
+     Status   : COMPLETE
+2. Work on the database
+     Owner    : Priya
+     Deadline : NOT SPECIFIED
+     Status   : INCOMPLETE
+3. Test the login feature
+     Owner    : UNASSIGNED
+     Deadline : NOT SPECIFIED
+     Status   : INCOMPLETE
+4. Finalize the documentation
+     Owner    : UNASSIGNED
+     Deadline : NOT SPECIFIED
+     Status   : INCOMPLETE
+5. Send the final API list to Priya
+     Owner    : Rahul
+     Deadline : tomorrow
+     Status   : COMPLETE
+
+------------------------------------------------------------------------------
+INCOMPLETE OR AMBIGUOUS ACTION ITEMS
+------------------------------------------------------------------------------
+* Work on the database
+    - No deadline mentioned in the transcript
+    - Ambiguous: No deadline is specified because Priya has not reviewed the
+      schema yet.
+* Test the login feature
+    - No responsible person identified in the transcript
+    - No deadline mentioned in the transcript
+    - Ambiguous: Ankit offered to possibly look at it, but expressed
+      uncertainty about having time this month, leaving ownership and deadline
+      unconfirmed.
+* Finalize the documentation
+    - No responsible person identified in the transcript
+    - No deadline mentioned in the transcript
+    - Ambiguous: Owner and deadline were explicitly postponed to be decided
+      later.
+
+------------------------------------------------------------------------------
+FOLLOW-UP ACTIONS
+------------------------------------------------------------------------------
+1. Assign an owner and establish a timeline for testing the login feature.
+2. Determine who will finalize the documentation and set a deadline.
+3. Establish a database completion deadline once Priya reviews the schema.
+
+------------------------------------------------------------------------------
+CLARIFICATION QUESTIONS
+------------------------------------------------------------------------------
+1. What is the deadline for completing the database work once Priya reviews
+   the schema?
+2. Who will be officially assigned to test the login feature, and when will it
+   be completed?
+3. Who will be responsible for finalizing the documentation, and what is the
+   deadline?
+
+==============================================================================

@@ -1,0 +1,62 @@
+==============================================================================
+                           MEETING-TO-ACTION REPORT                           
+==============================================================================
+Source    : command-line text
+Generated : 2026-11-06 16:09:43
+Model     : gemini-3.6-flash
+
+------------------------------------------------------------------------------
+SUMMARY
+------------------------------------------------------------------------------
+Rahul is assigned to complete the frontend work by Friday. Priya will be
+working on the database, though no specific deadline was provided. The team
+noted that documentation needs to be finalized, but an owner has not yet been
+assigned.
+
+------------------------------------------------------------------------------
+DECISIONS
+------------------------------------------------------------------------------
+No decisions were recorded in the transcript.
+
+------------------------------------------------------------------------------
+TASKS
+------------------------------------------------------------------------------
+1. Complete the frontend
+     Owner    : Rahul
+     Deadline : Friday
+     Status   : COMPLETE
+2. Work on the database
+     Owner    : Priya
+     Deadline : NOT SPECIFIED
+     Status   : INCOMPLETE
+3. Finalize the documentation
+     Owner    : UNASSIGNED
+     Deadline : NOT SPECIFIED
+     Status   : INCOMPLETE
+
+------------------------------------------------------------------------------
+INCOMPLETE OR AMBIGUOUS ACTION ITEMS
+------------------------------------------------------------------------------
+* Work on the database
+    - No deadline mentioned in the transcript
+    - Ambiguous: No deadline is specified for this task.
+* Finalize the documentation
+    - No responsible person identified in the transcript
+    - No deadline mentioned in the transcript
+    - Ambiguous: No owner has been assigned to this task, and no deadline is
+      specified.
+
+------------------------------------------------------------------------------
+FOLLOW-UP ACTIONS
+------------------------------------------------------------------------------
+1. Assign an owner to finalize the documentation.
+2. Establish a deadline for the database work.
+
+------------------------------------------------------------------------------
+CLARIFICATION QUESTIONS
+------------------------------------------------------------------------------
+1. Who will be assigned to finalize the documentation?
+2. What is the deadline for Priya to work on the database?
+3. What is the deadline for: Finalize the documentation?
+
+==============================================================================

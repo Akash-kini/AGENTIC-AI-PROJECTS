@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "source": "command-line text",
+    "generated_at": "2026-11-06T16:09:43",
+    "model": "gemini-3.6-flash"
+  },
+  "summary": "Rahul is assigned to complete the frontend work by Friday. Priya will be working on the database, though no specific deadline was provided. The team noted that documentation needs to be finalized, but an owner has not yet been assigned.",
+  "decisions": [],
+  "tasks": [
+    {
+      "id": 1,
+      "task": "Complete the frontend",
+      "owner": "Rahul",
+      "deadline": "Friday",
+      "status": "complete",
+      "issues": []
+    },
+    {
+      "id": 2,
+      "task": "Work on the database",
+      "owner": "Priya",
+      "deadline": null,
+      "status": "incomplete",
+      "issues": [
+        "No deadline mentioned in the transcript",
+        "Ambiguous: No deadline is specified for this task."
+      ]
+    },
+    {
+      "id": 3,
+      "task": "Finalize the documentation",
+      "owner": null,
+      "deadline": null,
+      "status": "incomplete",
+      "issues": [
+        "No responsible person identified in the transcript",
+        "No deadline mentioned in the transcript",
+        "Ambiguous: No owner has been assigned to this task, and no deadline is specified."
+      ]
+    }
+  ],
+  "incomplete_action_items": [
+    {
+      "task_id": 2,
+      "task": "Work on the database",
+      "issues": [
+        "No deadline mentioned in the transcript",
+        "Ambiguous: No deadline is specified for this task."
+      ]
+    },
+    {
+      "task_id": 3,
+      "task": "Finalize the documentation",
+      "issues": [
+        "No responsible person identified in the transcript",
+        "No deadline mentioned in the transcript",
+        "Ambiguous: No owner has been assigned to this task, and no deadline is specified."
+      ]
+    }
+  ],
+  "follow_up_actions": [
+    "Assign an owner to finalize the documentation.",
+    "Establish a deadline for the database work."
+  ],
+  "clarification_questions": [
+    "Who will be assigned to finalize the documentation?",
+    "What is the deadline for Priya to work on the database?",
+    "What is the deadline for: Finalize the documentation?"
+  ]
+}

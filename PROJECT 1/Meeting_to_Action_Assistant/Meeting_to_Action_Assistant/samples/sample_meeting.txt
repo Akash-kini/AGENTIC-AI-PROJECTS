@@ -1,0 +1,18 @@
+Project Kickoff Meeting - Student Portal Project
+Attendees: Rahul, Priya, Ankit, Dr. Mehta
+
+Dr. Mehta: Thanks everyone for joining. Let's go over where we stand on the student portal.
+
+Rahul: The design mockups are approved, so I will complete the frontend by Friday.
+
+Priya: I will work on the database. I haven't looked at the schema yet, so I can't say when it will be ready.
+
+Dr. Mehta: Okay. We have decided to use PostgreSQL for the database and to host the portal on the college server instead of a cloud provider.
+
+Ankit: We also need someone to test the login feature. Maybe I can look at it, but I'm not sure I'll have time this month.
+
+Dr. Mehta: We need to finalize the documentation, but we haven't decided who will do it. Let's figure that out later.
+
+Rahul: I'll send the final API list to Priya tomorrow so she can start on the database.
+
+Dr. Mehta: Good. We agreed to hold weekly check-in meetings every Monday. Let's wrap up here.

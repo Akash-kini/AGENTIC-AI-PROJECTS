@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "source": "samples/sample_meeting.txt",
+    "generated_at": "2026-11-06T10:05:58",
+    "model": "SIMULATED-EXAMPLE (offline stub, not a live Gemini call)"
+  },
+  "summary": "The team reviewed progress on the student portal. The frontend is on track, the database design is not started, and the team agreed on PostgreSQL and on-premise hosting. Documentation and login testing still lack clear owners.",
+  "decisions": [
+    "Use PostgreSQL for the database",
+    "Host the portal on the college server instead of a cloud provider",
+    "Hold weekly check-in meetings every Monday"
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "task": "Complete the frontend",
+      "owner": "Rahul",
+      "deadline": "Friday",
+      "status": "complete",
+      "issues": []
+    },
+    {
+      "id": 2,
+      "task": "Work on the database",
+      "owner": "Priya",
+      "deadline": null,
+      "status": "incomplete",
+      "issues": [
+        "No deadline mentioned in the transcript",
+        "Ambiguous: Priya has not reviewed the schema and cannot give a timeline"
+      ]
+    },
+    {
+      "id": 3,
+      "task": "Send the final API list to Priya",
+      "owner": "Rahul",
+      "deadline": "tomorrow",
+      "status": "complete",
+      "issues": []
+    },
+    {
+      "id": 4,
+      "task": "Test the login feature",
+      "owner": "Ankit",
+      "deadline": null,
+      "status": "incomplete",
+      "issues": [
+        "No deadline mentioned in the transcript",
+        "Ambiguous: Ankit said he might take it but is not sure he has time"
+      ]
+    },
+    {
+      "id": 5,
+      "task": "Finalize the documentation",
+      "owner": null,
+      "deadline": null,
+      "status": "incomplete",
+      "issues": [
+        "No responsible person identified in the transcript",
+        "No deadline mentioned in the transcript",
+        "Ambiguous: The team has not decided who will do it"
+      ]
+    }
+  ],
+  "incomplete_action_items": [
+    {
+      "task_id": 2,
+      "task": "Work on the database",
+      "issues": [
+        "No deadline mentioned in the transcript",
+        "Ambiguous: Priya has not reviewed the schema and cannot give a timeline"
+      ]
+    },
+    {
+      "task_id": 4,
+      "task": "Test the login feature",
+      "issues": [
+        "No deadline mentioned in the transcript",
+        "Ambiguous: Ankit said he might take it but is not sure he has time"
+      ]
+    },
+    {
+      "task_id": 5,
+      "task": "Finalize the documentation",
+      "issues": [
+        "No responsible person identified in the transcript",
+        "No deadline mentioned in the transcript",
+        "Ambiguous: The team has not decided who will do it"
+      ]
+    }
+  ],
+  "follow_up_actions": [
+    "Decide who will own the documentation",
+    "Confirm whether Ankit can take the login testing",
+    "Priya to review the database schema once Rahul sends the API list",
+    "Hold the first weekly check-in on Monday"
+  ],
+  "clarification_questions": [
+    "Who will handle the documentation?",
+    "When will the database work be ready?",
+    "Can Ankit confirm he will test the login feature, and by when?",
+    "What is the deadline for: Finalize the documentation?"
+  ]
+}
